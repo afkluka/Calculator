@@ -1,1 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #1b2559, #050714 70%);
+  color: white;
+}
 
+header {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0;
+  color: #9bd7ff;
+  text-shadow: 0 0 18px #4aa3ff;
+}
+
+header p {
+  color: #c9d8ff;
+  font-size: 18px;
+}
+
+.calculator {
+  width: 90%;
+  max-width: 520px;
+  margin: 0 auto;
+  background: rgba(15, 22, 55, 0.95);
+  padding: 28px;
+  border-radius: 22px;
+  box-shadow: 0 0 35px rgba(83, 155, 255, 0.35);
+  border: 2px solid rgba(120, 190, 255, 0.35);
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #bde7ff;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background: #101936;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #4aa3ff, #9b5cff);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 18px rgba(110, 160, 255, 0.6);
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.result {
+  margin-top: 25px;
+  background: #090d22;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(120, 190, 255, 0.25);
+}
+
+.result h2 {
+  margin-top: 0;
+  color: #9bd7ff;
+}
+
+#resultText {
+  line-height: 1.6;
+  color: #e8f2ff;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #7786b8;
+}
