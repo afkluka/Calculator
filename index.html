@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eternal Stats Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <header>
+    <h1>🌌 Eternal Stats Calculator</h1>
+    <p>Calculate how long it takes to max runes.</p>
+  </header>
+
+  <main class="calculator">
+    <label>Choose Rune</label>
+    <select id="runeSelect">
+      <option value="infiniteConstellation">Infinite Constellation</option>
+    </select>
+
+    <label>Your RPS</label>
+    <input id="rpsInput" type="text" placeholder="Example: 1M, 25B, 10T" />
+
+    <label>Your Rune Luck</label>
+    <input id="luckInput" type="text" placeholder="Example: 1, 5, 100K" />
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div class="result">
+      <h2>Result</h2>
+      <p id="resultText">Enter your stats and press calculate.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made for Eternal Stats</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
